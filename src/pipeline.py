@@ -1,5 +1,5 @@
 import os
-import pathlib
+# import pathlib
 import requests
 import json
 import re
@@ -66,7 +66,7 @@ def search_serper(search_query):
 
 def check_search_relevance(results):
     prompt = load_prompt("relevance_check")
-    llm = ChatOpenAI(model="gpt-4o").with_structured_output(RelevanceCheckOutput)
+    llm = ChatOpenAI(model="gpt-4.1-mini").with_structured_output(RelevanceCheckOutput)
     prompt_template = ChatPromptTemplate.from_messages([("system", prompt)])
     return (prompt_template | llm).invoke({"input_search_results": results})
 
@@ -124,7 +124,7 @@ def scrape_markdown(relevant_results):
 
 
 def summarize_pages(markdowns):
-    llm = ChatOpenAI(model="gpt-4o")
+    llm = ChatOpenAI(model="gpt-4.1-mini")
     prompt = load_prompt("summarise_markdown_page")
     chain = ChatPromptTemplate.from_messages([("system", prompt)]) | llm
     summaries = []
@@ -150,7 +150,7 @@ class State(TypedDict):
 
 def run_review_graph(summaries):
     email_template = load_prompt("email_template")
-    llm = ChatOpenAI(model="gpt-4o")
+    llm = ChatOpenAI(model="gpt-4.1-mini")
 
     class SummariserOutput(BaseModel):
         email_summary: str
