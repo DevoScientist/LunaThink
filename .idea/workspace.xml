@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90c957be-0112-43c2-8d8d-a0a114b4a09b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/development.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/development.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <updated>1744715946039</updated>
       <workItem from="1744715947733" duration="34000" />
       <workItem from="1744715992470" duration="9606000" />
-      <workItem from="1744725820870" duration="1832000" />
+      <workItem from="1744725820870" duration="2772000" />
     </task>
     <servers />
   </component>

@@ -87,6 +87,8 @@ streamlit run streamlit_app.py
 
 This will start the full pipeline: scrape → summarize → email.
 
+![The Final Output at your Localhost](./screenshots/Screenshot From 2025-04-15 17-49-48.png)
+
 ---
 
 ## 🛠 Future Plans
