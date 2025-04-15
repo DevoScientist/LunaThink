@@ -4,9 +4,11 @@ from src.pipeline import run_pipeline
 st.set_page_config(page_title="Lunathink AI Summary", layout="centered")
 st.title("🧠 Lunathink | Daily AI Summary Generator")
 
-st.markdown("""
+st.markdown(
+    """
 Enter your search topics (one per line), and receive a personalized research summary in your inbox!
-""")
+"""
+)
 
 with st.form("summary_form"):
     name = st.text_input("Your Name", placeholder="Jane Doe")
