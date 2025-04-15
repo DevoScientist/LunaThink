@@ -1,0 +1,12 @@
+streamlit
+requests
+beautifulsoup4
+pydantic
+python-dotenv
+langchain
+langchain-openai
+langgraph
+openai
+typing_extensions
+sib-api-v3-sdk
+
