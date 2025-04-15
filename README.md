@@ -32,7 +32,7 @@ Lunathink/
 ├── streamlit_app.py             # 🚀 Main Streamlit entry point
 ├── requirements.txt             # 📦 Dependencies for Streamlit
 ├── .env                         # 🔐 Environment variables (API keys, etc.)
-└── README.md                    # (Optional: add usage info)
+└── README.md                    # Breaf description of the repo
 
 ```
 
