@@ -265,4 +265,4 @@ def run_pipeline(search_terms: List[str], name: str, email: str):
     summaries = summarize_pages(markdowns)
     email_summary = run_review_graph(summaries)
     send_email(email, name, email_summary)
-    return True
+    return email_summary
