@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90c957be-0112-43c2-8d8d-a0a114b4a09b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/email_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/relevance_check.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/reviewer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/summarise_markdown_page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/summariser.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app.py" afterDir="false" />
     </list>
@@ -97,7 +101,9 @@
       <workItem from="1744729781514" duration="41000" />
       <workItem from="1744769753015" duration="225000" />
       <workItem from="1744770505574" duration="16000" />
-      <workItem from="1744770602587" duration="2090000" />
+      <workItem from="1744770602587" duration="2710000" />
+      <workItem from="1744789493617" duration="1139000" />
+      <workItem from="1744989933033" duration="7752000" />
     </task>
     <servers />
   </component>

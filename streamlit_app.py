@@ -28,6 +28,10 @@ with left_col:
                 st.success(f"✅ Valid email: {email}")
             else:
                 st.error("❌ Invalid email address")
+        profile = st.selectbox(
+            "Select Research Profile",
+            ["Business", "Engineer", "Researcher"]
+        )
         search_queries = st.text_area("Search Queries (one per line)", height=150)
         submit = st.form_submit_button("Generate & Email Summary")
 
@@ -39,7 +43,7 @@ with right_col:
             queries = [q.strip() for q in search_queries.splitlines() if q.strip()]
             with st.spinner("Working on it... this may take a few minutes."):
                 try:
-                    result = run_pipeline(queries, name, email)
+                    result = run_pipeline(queries, name, email, profile)
                     st.markdown(result, unsafe_allow_html=True)
                     st.success("✅ Summary generated and sent via email!")
                 except Exception as e:
