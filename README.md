@@ -18,22 +18,36 @@ Built with modularity and future scalability in mind, this project can be extend
 
 ## 📁 Project Structure
 
-```
+```text
 Lunathink/
-├── prompts/
-│   ├── email_template.md
-│   ├── relevance_check.md
-│   ├── reviewer.md
-│   ├── summarise_markdown_page.md
-│   └── summariser.md
-├── src/
-│   ├── pipeline.py              # (Refactored summarization/email pipeline)
-│   └── development.ipynb
-├── streamlit_app.py             # 🚀 Main Streamlit entry point
-├── requirements.txt             # 📦 Dependencies for Streamlit
-├── .env                         # 🔐 Environment variables (API keys, etc.)
-└── README.md                    # Breaf description of the repo
-
+├── prompts/                                 # 🧩 Curated prompts for different personas
+│   ├── Business/                            # Prompts tailored for business users
+│   │   ├── email_template.md
+│   │   ├── relevance_check.md
+│   │   ├── reviewer.md
+│   │   ├── summarise_markdown_page.md
+│   │   └── summariser.md
+│   ├── Engineer/                            # Prompts tailored for engineers
+│   │   ├── email_template.md
+│   │   ├── relevance_check.md
+│   │   ├── reviewer.md
+│   │   ├── summarise_markdown_page.md
+│   │   └── summariser.md
+│   └── Researcher/                          # Prompts tailored for researchers
+│       ├── email_template.md
+│       ├── relevance_check.md
+│       ├── reviewer.md
+│       ├── summarise_markdown_page.md
+│       └── summariser.md
+├── screenshots/                             
+│   └── Screenshot From 2025-04-15.png       # 📸 UI screenshot example
+├── src/                                     # 🧪 Core code for scraping/summarizing pipeline
+│   ├── development.ipynb                    # Early experimentation and prototype work
+│   └── pipeline.py                          # Refactored main pipeline for scraping + summarizing
+├── streamlit_app.py                         # 🚀 Streamlit interface for user interaction
+├── requirements.txt                         # 📦 List of required Python packages
+├── .env                                     # 🔐 API keys and email settings (not committed to version control)
+└── README.md                                # 📘 Project documentation
 ```
 
 ---
@@ -87,7 +101,7 @@ streamlit run streamlit_app.py
 
 This will start the full pipeline: scrape → summarize → email.
 
-![The Final Output at your Localhost](./screenshots/Screenshot From 2025-04-15 17-49-48.png)
+![The Final Output at your Localhost](./screenshots/updated_UI.png)
 
 ---
 
