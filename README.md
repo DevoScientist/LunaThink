@@ -108,7 +108,7 @@ This will start the full pipeline: scrape → summarize → email.
 ## 🛠 Future Plans
 
 - ⏱️ Schedule automated runs with cron or a task scheduler
-- 🗃 Support multiple content domains beyond AI
+- 🗃 Support multiple content domains beyond AI (✅ almost solved)
 - 📊 Add usage analytics and logging
 
 ---
