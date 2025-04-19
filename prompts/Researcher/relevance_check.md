@@ -31,3 +31,4 @@ Search results:
 
 ```json
 {input_search_results}
+```
